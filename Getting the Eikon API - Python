@@ -1,0 +1,12 @@
+pip install eikon 
+pip install cufflinks 
+
+import eikon as ek # The Eikon Python wrapper package 
+import numpy as pm # It is a general-purpose array-processing package
+import pandas as pd # Library for data manipulation and analysis 
+import cufflinks as cf  #iplot() s a third-party wrapper library around Plotly, when you import cufflinks, all Pandas data frames and series objects have a new method attached called .iplot()
+import configparser as cp 
+
+#Bear in mind that first you must have needed installed the Eikon API Proxy in your computer under the HDD in order to get a key
+import eikon as ek 
+ek.set_app_key("youreikonkey")  
